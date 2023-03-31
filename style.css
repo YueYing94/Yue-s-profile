@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+h1, h2 {
+  font-family: 'Nunito', sans-serif;
+  color: rgb(161, 121, 52)
+}
+
+h1 {
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color:rgb(43, 31, 12);
+}
+
+.btn-style {
+  background-color:rgb(178, 152, 117);
+  padding: 8px;
+  margin: 10px;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(78, 57, 20);
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.container {
+  background-color: antiquewhite;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: rgb(249, 244, 237);
+  border-radius: 30px;
+  padding: 20px;
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  box-shadow: 0 0 30px rgba(0,0,0,.1);
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 150px;
+}
+
+i {
+  font-size:30px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  margin: 10px;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
